@@ -1,0 +1,24 @@
+{
+  "name": "shopify.in_clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parthibt/Shopify.in_Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parthibt/Shopify.in_Clone/issues"
+  },
+  "homepage": "https://github.com/parthibt/Shopify.in_Clone#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
